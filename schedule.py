@@ -1,18 +1,18 @@
-import psycopg2
-
-from connect import connect
-from AirportData import getAirportData
 import random
 
-min=5000
-max=7500
-list=['08:00','10:00','12:00','14:00','16:00','18:00','20:00','22:00']
+from AirportData import getAirportData
+from connect import connect
+
+min = 5000
+max = 7500
+list = ['08:00', '10:00', '12:00', '14:00', '16:00', '18:00', '20:00', '22:00']
 postgres_insert_query = """ INSERT INTO schedule(schedule_id, arrival_time, departure_time, max_price, min_price, dstn_airport_airport_code, src_airport_airport_code)
 VALUES (%s,%s,%s,%s,%s,%s,%s)"""
-count1=0.0
+count1 = 0.0
 
-def putScheduleToDB(conn:connect,scheduleId:str,arrivalTime:str,
-                    departureTime:str,maxPrice:int,minPrice:int,
+
+def putScheduleToDB(conn: connect, scheduleId: str, arrivalTime: str,
+                    departureTime: str, maxPrice: int, minPrice: int,
                     dstnAirport:str,srcAirport:str):
     try:
         cur=conn.cursor()
