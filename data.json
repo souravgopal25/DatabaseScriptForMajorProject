@@ -1,0 +1,84 @@
+{
+    "array": [
+        {
+            "num": "1",
+            "code": "DEL"
+        },
+        {
+            "num": "2",
+            "code": "BOM"
+        },
+        {
+            "num": "3",
+            "code": "BLR"
+        },
+        {
+            "num": "4",
+            "code": "HYD"
+        },
+        {
+            "num": "5",
+            "code": "CCU"
+        },
+        {
+            "num": "6",
+            "code": "MAA"
+        },
+        {
+            "num": "7",
+            "code": "AMD"
+        },
+        {
+            "num": "8",
+            "code": "GOI"
+        },
+        {
+            "num": "9",
+            "code": "PAT"
+        },
+        {
+            "num": "10",
+            "code": "COK"
+        },
+        {
+            "num": "11",
+            "code": "LKO"
+        },
+        {
+            "num": "12",
+            "code": "GAU"
+        },
+        {
+            "num": "13",
+            "code": "PNQ"
+        },
+        {
+            "num": "14",
+            "code": "JAI"
+        },
+        {
+            "num": "15",
+            "code": "SXR"
+        },
+        {
+            "num": "16",
+            "code": "BBI"
+        },
+        {
+            "num": "17",
+            "code": "IXB"
+        },
+        {
+            "num": "18",
+            "code": "VNS"
+        },
+        {
+            "num": "19",
+            "code": "IXC"
+        },
+        {
+            "num": "20",
+            "code": "IXR"
+        }
+    ]
+}
