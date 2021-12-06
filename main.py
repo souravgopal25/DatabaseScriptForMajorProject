@@ -23,5 +23,3 @@ if __name__ == '__main__':
 
     print(db_version)
     conn.close()
-def addAirport():
-
